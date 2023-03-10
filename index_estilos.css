@@ -20,7 +20,7 @@ header{
     font-size: 1.8vw;
     position: fixed;
     display: flex;
-    color: white;
+    color: rgb(255, 255, 144);
     background-color: #171614;
     width: 100%;
     padding: 5vh 5vw 5vh 66vw;
@@ -38,7 +38,7 @@ nav > h1 {
 
 section > h1{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: rgb(8, 0, 77);
+    color: #040029;
     font-size: 40px;
     padding: 3vh 0vw 0vh 5vw;
     height: 1000px; 
