@@ -8,6 +8,7 @@ Night: #171614
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif; ;
 }
 
 header{
@@ -15,30 +16,30 @@ header{
     height: 80vh;
 }
 
-nav > h1 {
-    color: rgb(255, 255, 140);
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 46px;
-    padding: 5vh 0vw 0vh 5vw;  
-
-}
-
 .container_navbar{
-    display: none; /*alterar futuramente para "flex" */
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 10px;
-
+    font-size: 1.8vw;
+    position: fixed;
+    display: flex;
+    color: white;
+    background-color: #171614;
+    width: 100%;
+    padding: 5vh 5vw 5vh 66vw;
 }
 
-div.navbar_items{
-    color: rgb(255, 255, 140);
-    font-size: 16px;
+.navbar_items{
+    padding-left: 2vw;
+}
+
+nav > h1 {
+    color: white;
+    font-size: 3.5vw;
+    padding: 15vh 0vw 0vh 5vw;
 }
 
 section > h1{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: #171614;
+    color: rgb(8, 0, 77);
     font-size: 40px;
-    padding: 3vh 0vw 0vh 5vw; 
+    padding: 3vh 0vw 0vh 5vw;
+    height: 1000px; 
 }
