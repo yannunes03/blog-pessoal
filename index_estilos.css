@@ -28,27 +28,21 @@ Jonquil: #F0C808
 .titulo1{
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     color: var(--cor3);
-    font-size: 40px;
-    padding: 3vh 0vw 0vh 5vw;
-}
-
-.titulo2{
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: var(--cor2);
-    font-size: 40px;
+    font-size: 3vw;
     padding: 3vh 0vw 0vh 5vw;
 }
 
 .titulo2{ /* SOBRE MIM */
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     color: var(--cor2);
-    font-size: 40px;
+    font-size: 3vw;
     padding: 3vh 0vw 0vh 5vw;
+    
 }
 
 header{ /* Cabeçalho */
     background-color: var(--cor0);
-    height: 80vh;
+    padding-bottom: 3vw;
 }
 
 .container_navbar{ /* Menu de Navegação */
@@ -58,7 +52,7 @@ header{ /* Cabeçalho */
     color: var(--cor3) ;
     background-color: var(--cor0);
     width: 100%;
-    padding: 5vh 5vw 5vh 45vw;
+    padding: 5vh 5vw 5vh 50vw;
 }
 
 .navbar_items{
@@ -67,19 +61,25 @@ header{ /* Cabeçalho */
 
 nav > h1 {
     color: var(--cor1);
-    font-size: 3.5vw;
+    font-size: 4vw;
     padding: 15vh 0vw 0vh 5vw;
 }
 
 nav > h2 {
     color: var(--cor1);
-    font-size: 2 vw;
+    font-size: 1.5vw;
     padding: 0.5vh 0vw 0vh 5vw;
     text-decoration: underline var(--cor2);
 }
 
+#cabecalho_dizeres{
+    text-align: right;
+    padding: 0vh 5vw 0vh 0vw;
+
+}
+
 #sobreMim{
-    height: 80vh;
+    padding-bottom: 5vh;
 }
 
 .container1_section1{
@@ -99,10 +99,14 @@ nav > h2 {
 
 #fotoPessoal{ /* Sobre Mim - Pessoal */
     width: 22vw;
-    padding-right: 2.5vw;
 }
 
 #secao2{
-    height: 1000px;
+    height: 80vh;
     color: var(--cor3);
+}
+
+#secao3{
+    height: 80vh;
+
 }
