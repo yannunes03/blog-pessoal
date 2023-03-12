@@ -1,5 +1,8 @@
 /* duvida de cores: 
 Night: #171614
+white
+Steel Blue: #2081C3
+Jonquil: #F0C808
 
 */
 
@@ -11,19 +14,51 @@ Night: #171614
     font-family: 'Open Sans', Arial, Helvetica, sans-serif; ;
 }
 
-header{
-    background-color: #171614;
+:root{
+    --cor0: #171614;
+    --cor1: #ffffff;
+    --cor2: #2081C3;
+    --cor3: #F0C808;
+}
+
+.tema_night{ /* Tema Escuro */
+    background-color: var(--cor0);
+}
+
+.titulo1{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: var(--cor3);
+    font-size: 40px;
+    padding: 3vh 0vw 0vh 5vw;
+}
+
+.titulo2{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: var(--cor2);
+    font-size: 40px;
+    padding: 3vh 0vw 0vh 5vw;
+}
+
+.titulo2{ /* SOBRE MIM */
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: var(--cor2);
+    font-size: 40px;
+    padding: 3vh 0vw 0vh 5vw;
+}
+
+header{ /* Cabeçalho */
+    background-color: var(--cor0);
     height: 80vh;
 }
 
-.container_navbar{
-    font-size: 1.8vw;
+.container_navbar{ /* Menu de Navegação */
+    font-size: 1.6vw;
     position: fixed;
     display: flex;
-    color: rgb(255, 255, 144);
-    background-color: #171614;
+    color: var(--cor3) ;
+    background-color: var(--cor0);
     width: 100%;
-    padding: 5vh 5vw 5vh 66vw;
+    padding: 5vh 5vw 5vh 45vw;
 }
 
 .navbar_items{
@@ -31,15 +66,43 @@ header{
 }
 
 nav > h1 {
-    color: white;
+    color: var(--cor1);
     font-size: 3.5vw;
     padding: 15vh 0vw 0vh 5vw;
 }
 
-section > h1{
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    color: #040029;
-    font-size: 40px;
-    padding: 3vh 0vw 0vh 5vw;
-    height: 1000px; 
+nav > h2 {
+    color: var(--cor1);
+    font-size: 2 vw;
+    padding: 0.5vh 0vw 0vh 5vw;
+    text-decoration: underline var(--cor2);
+}
+
+#sobreMim{
+    height: 80vh;
+}
+
+.container1_section1{
+    display: flex;
+    text-align:left;
+    padding: 3vh 5vw 0vh 5vw;
+}
+
+.container1_section1_items{
+    font-size: 1.4vw;
+}
+
+#sobreMim_texto{ /* Sobre Mim - Texto */
+    text-align: justify;
+    padding-right: 10vw;
+}
+
+#fotoPessoal{ /* Sobre Mim - Pessoal */
+    width: 22vw;
+    padding-right: 2.5vw;
+}
+
+#secao2{
+    height: 1000px;
+    color: var(--cor3);
 }
