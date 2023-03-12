@@ -52,14 +52,22 @@ header{ /* Cabeçalho */
     color: var(--cor3) ;
     background-color: var(--cor0);
     width: 100%;
-    padding: 5vh 5vw 5vh 50vw;
+    padding: 0vh 5vw 0vh 0vw;
+    align-items: center;
+}
+
+#item0{
+  padding-right: 45vw;
+  font-size: 5vw;
+  color: var(--cor2);
 }
 
 .navbar_items{
     padding-left: 2vw;
 }
 
-nav > h1 {
+
+nav > h1 { /* Palavra BLOG*/
     color: var(--cor1);
     font-size: 4vw;
     padding: 15vh 0vw 0vh 5vw;
@@ -76,10 +84,6 @@ nav > h2 {
     text-align: right;
     padding: 0vh 5vw 0vh 0vw;
 
-}
-
-#sobreMim{
-    padding-bottom: 5vh;
 }
 
 .container1_section1{
@@ -99,6 +103,13 @@ nav > h2 {
 
 #fotoPessoal{ /* Sobre Mim - Pessoal */
     width: 22vw;
+}
+
+#tagFechamento{
+  font-size: 5vw;
+  color: var(--cor2);
+    text-align: right;
+    padding-right: 2vw;
 }
 
 #secao2{
