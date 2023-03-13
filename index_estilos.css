@@ -106,8 +106,15 @@ nav > h2 {
 }
 
 #tagFechamento{
-  font-size: 5vw;
-  color: var(--cor2);
+    font-size: 5vw;
+    color: var(--cor2);
+    text-align: right;
+    padding-right: 2vw;
+}
+
+#tagFechamento2{
+    font-size: 5vw;
+    color: var(--cor2);
     text-align: right;
     padding-right: 2vw;
 }
